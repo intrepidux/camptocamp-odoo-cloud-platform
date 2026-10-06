@@ -10,10 +10,6 @@
     "license": "AGPL-3",
     "category": "Extra Tools",
     "depends": ["base"],
-    "excludes": [
-        # OCA/server-auth
-        "auth_session_timeout",
-    ],
     "external_dependencies": {
         "python": ["redis"],
     },
